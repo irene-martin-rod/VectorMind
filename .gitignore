@@ -218,3 +218,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+# VectorMind - Machine Learning artifacts
+
+# Datasets
+data/raw/
+data/processed/
+
+# Models and embeddings
+models/
+embeddings/
+*.npy
+*.npz
+*.faiss
+
+# Experiment artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Generated reports
+reports/metrics/*
+!reports/metrics/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
