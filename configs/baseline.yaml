@@ -1,0 +1,11 @@
+dataset:
+  name: scifact
+  split: test
+
+retrieval:
+  top_k: 10
+
+models:
+  dense:
+    name: sentence-transformers/all-MiniLM-L6-v2
+    normalize_embeddings: true
